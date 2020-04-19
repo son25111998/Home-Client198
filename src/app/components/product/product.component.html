@@ -104,11 +104,11 @@
                                                                 <label for="qty">Qty:</label>
                                                                 <div class="qty_cart">
                                                                     <div class="qty-ctl">
-                                                                        <button title="decrease" onclick="changeQty(0); return false;" class="decrease">decrease</button>
+                                                                        <button title="decrease" (click)="changeQty(0)" class="decrease">decrease</button>
                                                                     </div>
                                                                     <input type="text" name="qty" id="qty" maxlength="12" value="1" title="Qty" class="input-text qty" />
                                                                     <div class="qty-ctl">
-                                                                        <button title="increase" onclick="changeQty(1); return false;" class="increase">increase</button>
+                                                                        <button title="increase" (click)="changeQty(1)" class="increase">increase</button>
                                                                     </div>
                                                                 </div>
                                                                 <ul class="add-to-links">
